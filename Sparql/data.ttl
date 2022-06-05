@@ -1,0 +1,178 @@
+@prefix data: <http://learningsparql.com/ns/addressbook#> .
+@prefix id:  <http://learningsparql.com/ns/data#> .
+@prefix rdf: <https://www.ldf.fi/service/gambar#> .
+
+#Users
+id:1
+    data:name       "Muhamad Fachri Maulana";
+    data:email      "muhamadfachri12@gmail.com";
+    data:school     "universitas padjadjaran"; .
+
+id:2
+    data:name       "Derek Dwi Wicaksana" ;
+    data:email      "wicaksana125@gmail.com" ;
+    data:school     "universitas padjadjaran" ;.
+
+id:3
+    data:name       "Alex Diorama" ;
+    data:email      "diorama15@gmail.com" ;
+    data:school     "universitas padjadjaran" ;.
+
+id:4
+    data:name       "Dandi Muhamad" ;
+    data:email      "dandi43@gmail.com" ;
+    data:school     "universitas indonesia" ;.
+
+id:5
+    data:name       "Dixie Dian Cantika" ;
+    data:email      "cantika12@gmail.com" ;
+    data:school     "universitas indonesia" ;.
+
+id:6
+    data:name       "Ivan Rahmansyah" ;
+    data:email      "ivan12@gmail.com" ;
+    data:school     "universitas indonesia" ;.
+
+id:7
+    data:name       "Krisna Ramadi" ;
+    data:email      "ramadikris85@gmail.com" ;
+    data:school     "universitas diponegoro" ;.
+
+id:8
+    data:name       "Lala Ayu Nurahman" ;
+    data:email      "ayu35@gmail.com" ;
+    data:school     "universitas diponegoro" ;.
+
+id:9
+    data:name       "Karen Suryajana" ;
+    data:email      "karen555@gmail.com" ;
+    data:school     "universitas diponegoro" ;.
+
+id:10
+    data:name       "Ilham Jaya Bawasa" ;
+    data:email      "jayailham5@gmail.com" ;
+    data:school     "universitas gunadarma" ;.
+
+id:11
+    data:name       "Muhamad Affan " ;
+    data:email      "affan23@gmail.com" ;
+    data:school     "universitas gunadarma" ;.
+
+id:12
+    data:name       "Sabil Sadewa" ;
+    data:email      "dewa89@gmail.com" ;
+    data:school     "universitas gunadarma" ;.
+
+id:13
+    data:name       "Darren Mandala" ;
+    data:email      "darren85@gmail.com" ;
+    data:school     "universitas pamulang" ;.
+
+id:14
+    data:name       "Ahdan Sudarsono" ;
+    data:email      "sudarsonn12@gmail.com" ;
+    data:school     "universitas pamulang" ;.
+
+id:15
+    data:name       "Raihan Muhamad" ;
+    data:email      "raihan5@gmail.com" ;
+    data:school     "universitas pamulang" ;.
+
+
+
+
+#Gender
+id:G1 data:gender "pria".
+id:G2 data:gender "wanita".
+
+#Relasi Gender
+id:1 data:hasGender id:G1.
+id:2 data:hasGender id:G1.
+id:3 data:hasGender id:G1.
+id:4 data:hasGender id:G1.
+id:5 data:hasGender id:G2.
+id:6 data:hasGender id:G1.
+id:7 data:hasGender id:G1.
+id:8 data:hasGender id:G2.
+id:9 data:hasGender id:G2.
+id:10 data:hasGender id:G1.
+id:11 data:hasGender id:G1.
+id:12 data:hasGender id:G1.
+id:13 data:hasGender id:G1.
+id:14 data:hasGender id:G1.
+id:15 data:hasGender id:G1.
+
+
+
+
+#Jabatan
+id:P1 data:position "manager".
+id:P2 data:position "staff".
+
+#Relasi Jabatan
+id:1  data:hasPosition id:P1.
+id:2  data:hasPosition id:P2.
+id:3  data:hasPosition id:P2.
+id:4  data:hasPosition id:P2.
+id:5  data:hasPosition id:P2.
+id:6  data:hasPosition id:P1.
+id:7  data:hasPosition id:P2.
+id:8  data:hasPosition id:P2.
+id:9  data:hasPosition id:P2.
+id:10 data:hasPosition id:P2.
+id:11 data:hasPosition id:P1.
+id:12 data:hasPosition id:P2.
+id:13 data:hasPosition id:P2.
+id:14 data:hasPosition id:P2.
+id:15 data:hasPosition id:P2.
+
+
+#Departement
+id:D1 data:departement "technology".
+id:D2 data:departement "product".
+id:D3 data:departement "data".
+
+#Relasi Departemen
+id:1  data:hasDepartement id:D1.
+id:2  data:hasDepartement id:D1.
+id:3  data:hasDepartement id:D1.
+id:4  data:hasDepartement id:D1.
+id:5  data:hasDepartement id:D1.
+id:6  data:hasDepartement id:D2.
+id:7  data:hasDepartement id:D2.
+id:8  data:hasDepartement id:D2.
+id:9  data:hasDepartement id:D2.
+id:10 data:hasDepartement id:D2.
+id:11 data:hasDepartement id:D3.
+id:12 data:hasDepartement id:D3.
+id:13 data:hasDepartement id:D3.
+id:14 data:hasDepartement id:D3.
+id:15 data:hasDepartement id:D3.
+
+#Job
+id:J1 data:job "software developer".
+id:J2 data:job "product engineer".
+id:J3 data:job "product designer".
+id:J4 data:job "product manager".
+id:J5 data:job "data analyst".
+id:J6 data:job "data scientist".
+
+#Relasi Jobs
+id:1  data:hasJob id:J1.
+id:2  data:hasJob id:J1.
+id:3  data:hasJob id:J1.
+id:4  data:hasJob id:J1.
+id:5  data:hasJob id:J1.
+id:6  data:hasJob id:J2.
+id:7  data:hasJob id:J2.
+id:8  data:hasJob id:J3.
+id:9  data:hasJob id:J3.
+id:10 data:hasJob id:J4.
+id:11 data:hasJob id:J5.
+id:12 data:hasJob id:J5.
+id:13 data:hasJob id:J5.
+id:14 data:hasJob id:J6.
+id:15 data:hasJob id:J6.
+
+             
+
